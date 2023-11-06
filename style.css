@@ -1,0 +1,55 @@
+body{
+    background: papayawhip;
+}
+.app{
+    background: white;
+    width: 90%;
+    height: ;
+    max-width: 600px;
+    max-height: ;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}.app h1{
+    font-size: 25px;
+    color: red;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: red;
+    font-weight: 600;
+}
+.btn{
+    background-color: red;
+    color:#222 ;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}
+.btn:hover{
+    background: #222;
+    color: white;
+}
+#next-button{
+    background: #001e4d;
+    color: white;
+    font-weight: 500px;
+    width: 150px;border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-bottom: 4px;
+    cursor: pointer;
+    display: none;
+}
